@@ -5,6 +5,8 @@ ol,ul,li {list-style-type:none;}
 a {text-decoration:none; color:#333;}
 
 
+
+
 #nav {width:100%; height:85px; position:fixed; z-index:3; background-color:tomato; display:flex; justify-content:space-between; align-items:center;}
 
 .nav_group1 {display:flex; align-items:center; margin-left:40px;}
@@ -15,16 +17,17 @@ a {text-decoration:none; color:#333;}
 
 .nav_group2 {width:330px; height:50px; display:flex; margin-right:40px; background-color:pink; align-items:center; justify-content:space-around;}
 .nav_group2 .cart {background-color:red; padding:10px 40px; border-radius:20px;}
-.nav_group2 .start {background-color:blue; padding:10px 30px; border-radius:20px;}
-.nav_group2 .start a {color:#fff;}
+.nav_group2 .get {background-color:blue; padding:10px 30px; border-radius:20px;}
+.nav_group2 .get a {color:#fff;}
 
 .nav_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87b874659b80f2013f8836_wave_menu.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:85px;}
 
 
 
+
 #main {width:100%; height:760px; background:#f4f2f0; position:relative; overflow:hidden;}
 
-.main_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87bedf96a9c74681bb8bb6_wave_white_down_1.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; bottom:0; z-index:3;}
+.main_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87bedf96a9c74681bb8bb6_wave_white_down_1.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; bottom:0; z-index:2;}
 
 .content {background-color:skyblue; padding-top:230px; text-align:center; position:relative; width:800px; height:700px; margin:0 auto;}
 
@@ -32,5 +35,32 @@ a {text-decoration:none; color:#333;}
 .content p {font-size:24px; margin-bottom:40px;}
 .content button {padding:25px 65px; border-radius:40px; cursor:pointer;}
 
-.salad1 {width:300px; height:280px; position:absolute; top:30px; left:-170px;}
-.salad2 {width:570px; height:500px; position:absolute; bottom:-200px; left:-200px;}
+.salad1 {width:300px; height:280px; position:absolute; top:30px; left:-180px;}
+.salad2 {width:570px; height:500px; position:absolute; bottom:-140px; left:-480px;}
+.salad3 {width:550px; height:480px; position:absolute; top:50px; right:-500px;}
+
+
+
+
+.section1 {width:100%; height:450px; margin:0 auto;background-color:palevioletred;}
+.box1 {width:1200px; height:450px; background-color:palegoldenrod; margin:0 auto;  display:flex; align-items:center; justify-content:space-around;}
+.feature {width:300px; height:300px; background-color:orange;}
+
+
+
+
+.section2 {width:100%; height:700px; position:relative;}
+.box2 {width:100%; height:700px; display:flex; align-items:center;}
+.textbox {width:50%; height:700px; background-color:paleturquoise}
+.imgbox {width:50%; height:700px; background-color:peru}
+
+.section2_wave_top {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87b874659b80f2013f8836_wave_menu.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:0; z-index:2;}
+.section2_wave_under {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87bedf96a9c74681bb8bb6_wave_white_down_1.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; bottom:0; z-index:2;}
+
+
+
+
+.section3 {width:100%; height:1300px; background-color:papayawhip}
+.box3 {width:1350px; height:1300px; margin:0 auto; background-color:plum;}
+.started {width:100%; height:650px; margin:0 auto; background-color:palegreen;}
+.plans {width:100%; height:650px; margin:0 auto; background-color:pink;}
