@@ -265,7 +265,7 @@ margin-top:40px; border-radius:10px; background-image:url(https://assets.website
 .bigtext2 h2 {color:#fff; font-size:57px; line-height:1.05em; margin-bottom:35px;}
 .bigtext2 h2 span {color:#fff;}
 
-.bigtext2 .input {display:flex; align-items:center;}
+.bigtext2 .input {display:flex; align-items:center; width:100%;}
 
 .bigtext2 .input_text {height: 59px;
     width:360px;
