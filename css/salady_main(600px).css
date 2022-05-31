@@ -7,7 +7,7 @@ a {text-decoration:none; color:#333;}
 
 @media (min-width:600px) and (max-width:999px) {
 
-#nav {width:100%; height:85px; z-index:3; background-color:tomato; display:flex; justify-content:space-between; align-items:center;}
+#nav {width:100%; height:85px; z-index:3; background-color:#fff; display:flex; justify-content:space-between; align-items:center;}
 
 
 .nav_group1 {display:flex; align-items:center; margin-left:40px;}
@@ -16,9 +16,10 @@ a {text-decoration:none; color:#333;}
 .nav_group1 .list ul {width:500px; display:flex; justify-content:space-around;}
 .nav_group1 .list ul li svg {vertical-align:middle; fill:#333;}
 
-.nav_group2 {width:330px; height:50px; display:flex; margin-right:40px; background-color:pink; align-items:center; justify-content:space-around;}
-.nav_group2 .cart {background-color:red; padding:10px 40px; border-radius:20px;}
-.nav_group2 .get {background-color:blue; padding:10px 30px; border-radius:20px;}
+.nav_group2 {width:330px; height:50px; display:flex; margin-right:40px; align-items:center; justify-content:space-around;}
+.nav_group2 .cart {padding:10px 40px; border-radius:20px; transition:all 0.3s}
+.nav_group2 .cart:hover {background-color:#f4f2f0;}
+.nav_group2 .get {background-color:#16bed1; padding:10px 30px; border-radius:20px;}
 .nav_group2 .get a {color:#fff;}
 .nav_group2 .list_icon {background-color:#f4f2f0; padding:12px; border-radius:50%; cursor:pointer;}
 .list_icon i {display:block;}
@@ -45,9 +46,9 @@ a {text-decoration:none; color:#333;}
 
 
 
-.section1 {width:100%; height:400px; margin:0 auto;background-color:palevioletred;}
-.box1 {width:100%; height:400px; background-color:palegoldenrod; margin:0 auto;  display:flex; align-items:center; justify-content:space-around;}
-.feature {width:380px; height:300px; background-color:orange; text-align:center; position:relative;}
+.section1 {width:100%; height:400px; margin:0 auto;}
+.box1 {width:100%; height:400px; margin:0 auto;  display:flex; align-items:center; justify-content:space-around;}
+.feature {width:380px; height:300px; text-align:center; position:relative;}
 .feature .icon_red {width:28px; height:28px; position:absolute; top:35px; left:46%;}
 .feature h4 {font-size:30px; height:60px; margin-bottom:20px;}
 
@@ -75,14 +76,14 @@ a {text-decoration:none; color:#333;}
 
 
 
-.section3 {width:100%; height:1400px; background-color:papayawhip}
-.box3 {width:100%; height:1400px; margin:0 auto; background-color:plum;}
-.box3 .started {width:100%; height:650px; margin:0 auto; background-color:palegreen; display:flex;}
+.section3 {width:100%; height:1400px;}
+.box3 {width:100%; height:1400px; margin:0 auto;}
+.box3 .started {width:100%; height:650px; margin:0 auto; display:flex;}
 
 .plate {width:50%; height:650px; background-image:url(../img/5f8ba9295eb38664d61c0857_blob_group_1.svg); background-repeat:no-repeat; background-size:contain; background-position:center; position:relative;}
 .plate img {width:100%; height:430px; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
 
-.Meal {width:50%; height:650px; padding:40px 5%; background-color:darkcyan;}
+.Meal {width:50%; height:650px; padding:40px 5%;}
 .Meal .subtitle {font-size:18px;}
 .Meal h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .Meal p {font-size:20px; margin-bottom:36px;}
@@ -91,14 +92,14 @@ a {text-decoration:none; color:#333;}
 .meal_icon img {width:18px; height:18px; margin-right:14px; vertical-align:middle;}
 .meal_icon h6 {font-size:18px; font-weight: 700; vertical-align:top;}
 
-.box3 .plans {width:100%; height:850px; margin:0 auto; background-color:pink;}
-.plans_text {width:100%; height:200px; margin:0 auto; padding:20px; background-color:brown; text-align:center;}
+.box3 .plans {width:100%; height:850px; margin:0 auto;}
+.plans_text {width:100%; height:200px; margin:0 auto; padding:20px; text-align:center;}
 .plans_text .subtitle {font-size:18px;}
 .plans_text h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .plans_text p {font-size:20px; margin-bottom:36px;}
 
-.plans_list {width:100%; height:500px; margin:0 auto; background-color:coral; display:flex; align-items:center; justify-content:space-around;}
-.price {width:410px; height:460px; border-radius:10px; background-color:cornflowerblue; overflow:hidden; border:1px solid #e8e3df;}
+.plans_list {width:100%; height:500px; margin:0 auto; display:flex; align-items:center; justify-content:space-around;}
+.price {width:410px; height:460px; border-radius:10px; overflow:hidden; border:1px solid #e8e3df;}
 
 .price_img img {width:100%;}
 

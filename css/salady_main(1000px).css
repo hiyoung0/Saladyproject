@@ -9,17 +9,18 @@ a {text-decoration:none; color:#333;}
 
 @media (min-width:1000px) {
 
-#nav {width:100%; height:85px; position:fixed; z-index:3; background-color:tomato; display:flex; justify-content:space-between; align-items:center;}
+#nav {width:100%; height:85px; position:fixed; z-index:3; display:flex; justify-content:space-between; align-items:center; background-color:#fff;}
 
 .nav_group1 {display:flex; align-items:center; margin-left:40px;}
 .nav_group1 .logo {width:200px; height:60px; background-image:url(../img/5f87c2a41d7435bd9edc771b_logo.svg); background-repeat:no-repeat; background-size:contain; vertical-align:middle;}
 .nav_group1 .list {display:flex;}
-.nav_group1 .list ul {width:500px; display:flex; justify-content:space-around; background-color:green;}
+.nav_group1 .list ul {width:500px; display:flex; justify-content:space-around;}
 .nav_group1 .list ul li svg {vertical-align:middle; fill:#333;}
 
-.nav_group2 {width:330px; height:50px; display:flex; margin-right:40px; background-color:pink; align-items:center; justify-content:space-around;}
-.nav_group2 .cart {background-color:red; padding:10px 40px; border-radius:20px;}
-.nav_group2 .get {background-color:blue; padding:10px 30px; border-radius:20px;}
+.nav_group2 {width:330px; height:50px; display:flex; margin-right:40px; align-items:center; justify-content:space-around;}
+.nav_group2 .cart {padding:10px 40px; border-radius:20px; transition:all 0.3s}
+.nav_group2 .cart:hover {background-color:#f4f2f0;}
+.nav_group2 .get {background-color:#16bed1; padding:10px 30px; border-radius:20px;}
 .nav_group2 .get a {color:#fff;}
 .nav_group2 .list_icon {display:none;}
 
@@ -32,7 +33,7 @@ a {text-decoration:none; color:#333;}
 
 .main_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87bedf96a9c74681bb8bb6_wave_white_down_1.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; bottom:0; z-index:2;}
 
-.content {background-color:skyblue; padding-top:230px; text-align:center; position:relative; width:800px; height:700px; margin:0 auto;}
+.content {padding-top:230px; text-align:center; position:relative; width:800px; height:700px; margin:0 auto;}
 
 .content h1 {font-size:81px; line-height: 1.05em; margin-bottom:30px;}
 .content p {font-size:24px; margin-bottom:40px;}
@@ -45,9 +46,9 @@ a {text-decoration:none; color:#333;}
 
 
 
-.section1 {width:100%; height:400px; margin:0 auto;background-color:palevioletred;}
-.box1 {width:1200px; height:400px; background-color:palegoldenrod; margin:0 auto;  display:flex; align-items:center; justify-content:space-around;}
-.feature {width:380px; height:250px; background-color:orange; text-align:center; position:relative;}
+.section1 {width:100%; height:400px; margin:0 auto;}
+.box1 {width:1200px; height:400px; margin:0 auto;  display:flex; align-items:center; justify-content:space-around;}
+.feature {width:380px; height:250px; text-align:center; position:relative;}
 .feature .icon_red {width:28px; height:28px; position:absolute; top:35px; left:46%;}
 .feature h4 {font-size:30px; height:60px;}
 
@@ -80,14 +81,14 @@ a {text-decoration:none; color:#333;}
 
 
 
-.section3 {width:100%; height:1400px; background-color:papayawhip}
-.box3 {width:1350px; height:1400px; margin:0 auto; background-color:plum;}
-.box3 .started {width:100%; height:650px; margin:0 auto; background-color:palegreen; display:flex;}
+.section3 {width:100%; height:1400px;}
+.box3 {width:1350px; height:1400px; margin:0 auto;}
+.box3 .started {width:100%; height:650px; margin:0 auto; display:flex;}
 
 .plate {width:50%; height:650px; background-image:url(../img/5f8ba9295eb38664d61c0857_blob_group_1.svg); background-repeat:no-repeat; background-size:contain; background-position:center; position:relative;}
 .plate img {width:460px; height:430px; position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);}
 
-.Meal {width:50%; height:650px; padding:120px 5%; background-color:darkcyan;}
+.Meal {width:50%; height:650px; padding:120px 5%;}
 .Meal .subtitle {font-size:18px;}
 .Meal h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .Meal p {font-size:20px; margin-bottom:36px;}
@@ -96,14 +97,14 @@ a {text-decoration:none; color:#333;}
 .meal_icon img {width:18px; height:18px; margin-right:14px; vertical-align:middle;}
 .meal_icon h6 {font-size:18px; font-weight: 700; vertical-align:top;}
 
-.box3 .plans {width:100%; height:850px; margin:0 auto; background-color:pink;}
-.plans_text {width:590px; height:200px; margin:0 auto; padding:20px; background-color:brown; text-align:center;}
+.box3 .plans {width:100%; height:850px; margin:0 auto;}
+.plans_text {width:590px; height:200px; margin:0 auto; padding:20px; text-align:center;}
 .plans_text .subtitle {font-size:18px;}
 .plans_text h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .plans_text p {font-size:20px; margin-bottom:36px;}
 
-.plans_list {width:100%; height:500px; margin:0 auto; background-color:coral; display:flex; align-items:center; justify-content:space-around;}
-.price {width:410px; height:460px; border-radius:10px; background-color:cornflowerblue; overflow:hidden; border:1px solid #e8e3df;}
+.plans_list {width:100%; height:500px; margin:0 auto; display:flex; align-items:center; justify-content:space-around;}
+.price {width:410px; height:460px; border-radius:10px; overflow:hidden; border:1px solid #e8e3df;}
 
 .price_img img {width:100%;}
 
