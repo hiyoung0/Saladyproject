@@ -37,7 +37,7 @@ a {text-decoration:none; color:#333;}
 
 .content h1 {font-size:57px; line-height: 1.05em; margin-bottom:30px; position:relative; z-index:3;}
 .content p {font-size:20px; margin-bottom:40px;}
-.content button {padding:25px 65px; border-radius:40px; cursor:pointer;  background-color: #ff3000; color:#fff; border:none; font-size:16px;}
+.content button {padding:25px 65px; border-radius:40px; cursor:pointer;  background-color: #ff3000; color:#fff; border:none; font-size:16px; position:relative; z-index:3;}
 
 .salad1 {width:300px; height:280px; position:absolute; top:-110px; left:-170px;}
 .salad2 {width:570px; height:500px; position:absolute; bottom:-280px; left:-370px;}
@@ -192,15 +192,15 @@ a {text-decoration:none; color:#333;}
 
 
 
-.section6 {width:100%; height:auto; margin:0 auto; text-align:center;}
+.section6 {width:100%; height:2750px; margin:0 auto; text-align:center;}
 
 .Explore {padding-top:40px;}
 .Explore .subtitle {font-size:18px;}
 .Explore h2 {font-size:32px; line-height:44px; margin-bottom:22px;}
 .Explore p {font-size:20px; margin-bottom:36px;}
 
-.add_to_cart {display:flex; justify-content:space-around; flex-direction:column; align-items:center; height:1700px;}
-.add {width:410px; height:540px; border-radius:10px; overflow:hidden; border:1px solid #ccc;}
+.add_to_cart {display:flex; justify-content:space-around; flex-direction:column; align-items:center; height:1900px;}
+.add {width:410px; height:600px; border-radius:10px; overflow:hidden; border:1px solid #ccc;}
 .add_to {width:100%; height:auto; overflow:hidden;}
 .add_to a img {width:100%;}
 
@@ -257,7 +257,7 @@ margin-top:40px; border-radius:10px; background-image:url(https://assets.website
 
 
 
-.section8 {width:100%; height:auto; position:relative; background-image:linear-gradient(180deg, rgba(31, 27, 26, 0.35), rgba(31, 27, 26, 0.35)), url(https://assets.website-files.com/5f8777f972356e39b046d89f/5f8cd47a1829f441ed377507_image_3.jpg); background-size:cover;}
+.section8 {width:100%; height:400px; position:relative; background-image:linear-gradient(180deg, rgba(31, 27, 26, 0.35), rgba(31, 27, 26, 0.35)), url(https://assets.website-files.com/5f8777f972356e39b046d89f/5f8cd47a1829f441ed377507_image_3.jpg); background-size:cover;}
 .section8_wave_top {position:absolute; width:100%; height:36px; background-image:url(https://assets.website-files.com/5f8777f972356e39b046d89f/5f8cd311d401617ab9e58597_wave_grey_top_2.svg); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:0; z-index:2;}
 .section8_wave_under {position:absolute; width:100%; height:36px; background-image:url(https://assets.website-files.com/5f8777f972356e39b046d89f/5f8e056d5409367b68fb0ad4_wave_footer.svg); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; bottom:0; z-index:2;}
 
