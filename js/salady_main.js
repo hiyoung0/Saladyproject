@@ -1,2 +1,18 @@
 $(document).ready(function(){
+    $('.flag1').click(function(){
+        $('.items1').slideToggle();
+        $(this).toggleClass('rotate');
+    });
+    $('.flag2').click(function(){
+        $('.items2').slideToggle();
+        $(this).toggleClass('rotate');
+    });
+    $('.flag3').click(function(){
+        $('.items3').slideToggle();
+        $(this).toggleClass('rotate');
+    });
+    $('.flag4').click(function(){
+        $('.items4').slideToggle();
+        $(this).toggleClass('rotate');
+    });
 });
