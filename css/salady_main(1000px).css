@@ -23,7 +23,8 @@ a {text-decoration:none; color:#333;}
 .nav_group2 .cartimg {display:flex; padding:10px 30px; border-radius:20px; transition:all 0.3s;}
 .nav_group2 .cartimg:hover {background-color:#f4f2f0;}
 .nav_group2 .cart {margin-left:15px;}
-.nav_group2 .get {background-color:#16bed1; padding:10px 30px; border-radius:20px;}
+.nav_group2 .get {background-color:#16bed1; padding:10px 30px; border-radius:20px; transition:all 0.3s ease;}
+.nav_group2 .get:hover {background-color:#00a36c; transform:scale(1.05);}
 .nav_group2 .get a {color:#fff;}
 .nav_group2 .list_icon {display:none;}
 
@@ -40,7 +41,8 @@ a {text-decoration:none; color:#333;}
 
 .content h1 {font-size:81px; line-height: 1.05em; margin-bottom:30px;}
 .content p {font-size:24px; margin-bottom:40px;}
-.content button {padding:25px 65px; border-radius:40px; cursor:pointer; background-color: #ff3000; color:#fff; border:none; font-size:16px; font-family: 'Jost', sans-serif; font-weight:500; }
+.content button {padding:25px 65px; border-radius:40px; cursor:pointer; background-color: #ff3000; color:#fff; border:none; font-size:16px; font-family: 'Jost', sans-serif; font-weight:500; transition:all 0.3s ease;}
+.content button:hover {background-color:#fb8c23; transform:scale(1.05);}
 
 .salad1 {width:300px; height:280px; position:absolute; top:30px; left:-180px;}
 .salad2 {width:570px; height:500px; position:absolute; bottom:-140px; left:-480px;}
@@ -71,7 +73,8 @@ a {text-decoration:none; color:#333;}
 .textbox .subtitle {font-size:18px;}
 .textbox h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .textbox p {font-size:20px; margin-bottom:60px;}
-.textbox a {background-color:#fb8c23; padding:20px 37px; border-radius:50px; font-family: 'Jost', sans-serif; font-weight:500;}
+.textbox a {background-color:#fb8c23; padding:20px 37px; border-radius:50px; font-family: 'Jost', sans-serif; font-weight:500; transition:all 0.3s ease; display:inline-block;}
+.textbox a:hover {background-color:#ff3000; transform:scale(1.05);}
 
 
 
@@ -140,7 +143,7 @@ a {text-decoration:none; color:#333;}
     max-width:390px;
     font-size:18px;
     line-height:1.6em;
-    margin-bottom:36px;}
+    margin-bottom:20px;}
 
 .price_button1 {color:#fff;
     font-size:14px;
@@ -151,7 +154,10 @@ a {text-decoration:none; color:#333;}
     text-transform:uppercase;
     background-color:hsla(186.09625668449198, 80.95%, 45.29%, 1.00);
     padding: 13px 27px;
-    border-radius: 50px;}
+    border-radius: 50px;
+    display:inline-block;
+    transition:all 0.3s ease;}
+.price_button1:hover {transform:scale(1.05);}
 
 .price_button2 {color:#fff;
     font-size:14px;
@@ -162,7 +168,10 @@ a {text-decoration:none; color:#333;}
     text-transform:uppercase;
     background-color:hsla(159.75460122699386, 100.00%, 31.96%, 1.00);
     padding: 13px 27px;
-    border-radius: 50px;}
+    border-radius: 50px;
+    display:inline-block;
+    transition:all 0.3s ease;}
+.price_button2:hover {transform:scale(1.05);}
 
 .price_button3 {color:#fff;
     font-size:14px;
@@ -173,7 +182,10 @@ a {text-decoration:none; color:#333;}
     text-transform:uppercase;
     background-color:#fb8c23;
     padding: 13px 27px;
-    border-radius: 50px;}
+    border-radius: 50px;
+    display:inline-block;
+    transition:all 0.3s ease;}
+.price_button3:hover {transform:scale(1.05);}
 
 
 
@@ -198,9 +210,10 @@ a {text-decoration:none; color:#333;}
 .section5_wave_under {position:absolute; width:100%; height:36px; background-image:url(https://assets.website-files.com/5f8777f972356e39b046d89f/5f87bedfbc4a48058a5be815_wave_white_down_2.svg); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; bottom:0; z-index:2;}
 
 .bigtext {text-align:center; padding:150px 10%;}
-.bigtext h2 {margin-bottom:70px; color:#fff; font-size:81px; line-height:1.05em;}
+.bigtext h2 {margin-bottom:60px; color:#fff; font-size:81px; line-height:1.05em;}
 .bigtext h2 span {color:#fff;}
-.bigtext a {color:#fff; background-color:#fb8c23; padding:25px 50px; border-radius:50px; line-height:1.2em; letter-spacing:0.06em; font-weight:500; font-family: 'Jost', sans-serif;}
+.bigtext a {color:#fff; background-color:#fb8c23; padding:25px 50px; border-radius:50px; line-height:1.2em; letter-spacing:0.06em; font-weight:500; font-family: 'Jost', sans-serif; transition:all 0.3s ease; display:inline-block;}
+.bigtext a:hover {background-color:#ff3000; transform:scale(1.05);}
 
 
 
@@ -233,15 +246,18 @@ a {text-decoration:none; color:#333;}
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    border:none;}
+    border:none;
+    transition:all 0.3s ease;
+    cursor:pointer;}
+.add input:hover {background-color:#00a36c; color:#fff; transform:scale(1.05);}
 
 .Join_now {width:97%; height:340px; background-color:#fb8c23; margin:0 auto;
 margin-top:70px; border-radius:10px; background-image:url(https://assets.website-files.com/5f8777f972356e39b046d89f/5f8b9bf439466a2e75c8dc5e_texture.png); display:flex;}
 .Join_now img {max-width: 100%;
     vertical-align: middle;
     display: inline-block;}
-.Join_now .subtitle {font-size:18px; color:#fff; text-align:left; margin-top:70px;}
-.Join_now h2 {font-size:44px; line-height:44px; margin-bottom:22px; text-align:left; color:#fff; margin-bottom:50px;}
+.Join_now .subtitle {font-size:18px; color:#fff; text-align:left; margin-top:55px;}
+.Join_now h2 {font-size:44px; line-height:44px; text-align:left; color:#fff; margin-bottom:35px;}
 .Join_now a {padding: 20px 52px;
     border-radius: 50px; background-color:#fff;
     font-size: 16px;
@@ -250,7 +266,10 @@ margin-top:70px; border-radius:10px; background-image:url(https://assets.website
     text-align: center;
     letter-spacing: 0.06em;
     float:left;
-    font-family: 'Jost', sans-serif;}
+    font-family: 'Jost', sans-serif;
+    transition:all 0.3s ease;
+    display:block;}
+.Join_now a:hover {background-color:#00a36c; color:#fff; transform:scale(1.05);}
 
 
 
@@ -304,7 +323,10 @@ margin-top:70px; border-radius:10px; background-image:url(https://assets.website
     text-transform: uppercase;
     border:none;
     margin-left:8px;
-    font-family: 'Jost', sans-serif;}
+    font-family: 'Jost', sans-serif;
+    transition:all 0.3s ease;
+    cursor:pointer;}
+.bigtext2 .input_submit:hover {background-color:#ff3000; transform:scale(1.05);}
 
 
 
