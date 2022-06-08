@@ -10,7 +10,7 @@ a {text-decoration:none; color:#333;}
 
 @media (max-width:599px){
 
-#nav {width:100%; height:85px; z-index:3; background-color:#fff; display:flex; justify-content:space-between; align-items:center; font-family: 'Jost', sans-serif; font-weight:500; font-size:14px;}
+#nav {width:100%; height:auto; z-index:3; background-color:#fff; display:flex; justify-content:space-between; align-items:center; font-family: 'Jost', sans-serif; font-weight:500; font-size:14px; padding:13px 10px 0 20px;}
 
 
 .nav_group1 {display:flex; align-items:center; margin-left:20px;}
@@ -25,10 +25,22 @@ a {text-decoration:none; color:#333;}
 .nav_group2 .cart {margin-left:15px;}
 .nav_group2 .get {background-color:#16bed1; padding:10px 30px; border-radius:20px; display:none;}
 .nav_group2 .get a {color:#fff;}
-.nav_group2 .list_icon {background-color:#f4f2f0; padding:12px; border-radius:50%; cursor:pointer;}
-.list_icon i {display:block;}
+.list_icon {background-color:#f4f2f0; padding:12px; border-radius:50%; cursor:pointer; transition:all 0.3s ease;}
+.list_icon i {display:block; transition:all 0.3s ease;}
+.orange {background-color:#fb8c23;}
+.list_icon .white {color:#fff;}
 
-.nav_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87b874659b80f2013f8836_wave_menu.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:84px; z-index:3;}
+.nav_group3 {line-height:45px; height:auto; position:absolute; width:100%; font-family: 'Jost', sans-serif; font-weight:500; font-size:14px; display:none; z-index:5;}
+.nav_group3 ul { background-color:#fff;  padding-top:20px; padding-left:40px; padding-bottom: 20px;;}
+.nav_group3 ul li svg {vertical-align:middle; fill:#333; padding-left:5px;}
+.nav_group3 .group3_box ul li:nth-child(3) a:hover {color:#fb8c23}
+
+.group3_box {height:400px;}
+
+
+.nav_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87b874659b80f2013f8836_wave_menu.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:70px; z-index:3; left:0;}
+
+.nav_wave_drop {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87bedf6694fcbe30821ace_wave_white_top_3.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; z-index:3; left:0;}
 
 
 

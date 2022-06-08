@@ -17,6 +17,7 @@ a {text-decoration:none; color:#333;}
 .nav_group1 .list {display:flex;}
 .nav_group1 .list ul {width:500px; display:flex; justify-content:space-around;}
 .nav_group1 .list ul li svg {vertical-align:middle; fill:#333;}
+.nav_group1 .list ul li:nth-child(3) a:hover {color:#fb8c23}
 
 .nav_group2 {width:330px; height:50px; display:flex; margin-right:40px; align-items:center; justify-content:space-around;}
 
@@ -27,6 +28,8 @@ a {text-decoration:none; color:#333;}
 .nav_group2 .get:hover {background-color:#00a36c; transform:scale(1.05);}
 .nav_group2 .get a {color:#fff;}
 .nav_group2 .list_icon {display:none;}
+
+.nav_group3 {display:none;}
 
 .nav_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87b874659b80f2013f8836_wave_menu.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:85px;}
 
