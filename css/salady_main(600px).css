@@ -25,8 +25,8 @@ a {text-decoration:none; color:#333;}
 .nav_group2 .get {background-color:#16bed1; padding:10px 30px; border-radius:20px; transition:all 0.3s ease;}
 .nav_group2 .get a {color:#fff;}
 .nav_group2 .get:hover {background-color:#00a36c; transform:scale(1.05);}
-.list_icon {background-color:#f4f2f0; padding:12px; border-radius:50%; cursor:pointer;}
-.list_icon i {display:block;}
+.list_icon {background-color:#f4f2f0; padding:12px; border-radius:50%; cursor:pointer; transition:all 0.3s ease;}
+.list_icon i {display:block; transition:all 0.3s ease;}
 .orange {background-color:#fb8c23;}
 .list_icon .white {color:#fff;}
 
