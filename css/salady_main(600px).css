@@ -119,8 +119,8 @@ a {text-decoration:none; color:#333;}
 .plans_text h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .plans_text p {font-size:20px; margin-bottom:36px;}
 
-.plans_list {width:100%; height:500px; margin:0 auto; display:flex; align-items:center; justify-content:space-around;}
-.price {width:410px; height:460px; border-radius:10px; overflow:hidden; border:1px solid #e8e3df;}
+.plans_list {width:97%; height:500px; margin:0 auto; display:flex; align-items:center; justify-content:space-around;}
+.price {width:32%; height:460px; border-radius:10px; overflow:hidden; border:1px solid #e8e3df;}
 
 .price_img img {width:100%;}
 
@@ -237,8 +237,8 @@ a {text-decoration:none; color:#333;}
 .Explore h2 {font-size:44px; line-height:44px; margin-bottom:22px;}
 .Explore p {font-size:20px; margin-bottom:36px;}
 
-.add_to_cart {display:flex; justify-content:space-around;}
-.add {width:410px; height:540px; border-radius:10px; overflow:hidden; border:1px solid #ccc;}
+.add_to_cart {display:flex; justify-content:space-between; width:97%; margin:0 auto;}
+.add {width:32%; height:540px; border-radius:10px; overflow:hidden; border:1px solid #ccc;}
 .add_to {width:100%; height:auto; overflow:hidden;}
 .add_to a img {width:100%;}
 
@@ -295,8 +295,9 @@ margin-top:70px; border-radius:10px; background-image:url(https://assets.website
 .section7_text .subtitle {font-size:18px;}
 .section7_text h2 {font-size:44px; line-height:52px; margin-bottom:22px;}
 
-.accordion-item {margin:0 auto; width:100%; background-color:#fff; border-radius:10px; margin-bottom:15px; padding:20px}
-.accordion-header {display:flex; justify-content:space-between;}
+.accordion-item {margin:0 auto; width:97%; background-color:#fff; border-radius:10px; margin-bottom:15px; padding:20px}
+.accordion-header {display:flex; justify-content:space-between; cursor:pointer; transition:all 0.3s ease;}
+.accordion-header:hover {margin-left:7px;}
 .accordion-header h6 {display:inline-block; font-size:18px;}
 .accordion-header img {transform:rotate(-90deg); cursor:pointer; transition:all 0.5s ease;}
 .accordion-header .rotate {transform:rotate(0deg); transition:all 0.5s ease;}

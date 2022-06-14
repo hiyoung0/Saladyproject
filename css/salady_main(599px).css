@@ -35,7 +35,7 @@ a {text-decoration:none; color:#333;}
 .nav_group3 ul li svg {vertical-align:middle; fill:#333; padding-left:5px;}
 .nav_group3 .group3_box ul li:nth-child(3) a:hover {color:#fb8c23}
 
-.group3_box {height:400px;}
+.group3_box {height:300px;}
 
 
 .nav_wave {position:absolute; width:100%; height:36px; background-image:url('https://assets.website-files.com/5f8777f972356e39b046d89f/5f87b874659b80f2013f8836_wave_menu.svg'); background-repeat:repeat-x; background-size:auto; background-attachment: scroll; background-position:50% 50%; top:70px; z-index:3; left:0;}
@@ -295,8 +295,9 @@ margin-top:40px; border-radius:10px; background-image:url(https://assets.website
 .section7_text .subtitle {font-size:18px;}
 .section7_text h2 {font-size:32px; line-height:52px; margin-bottom:22px;}
 
-.accordion-item {margin:0 auto; width:100%; background-color:#fff; border-radius:10px; margin-bottom:15px; padding:20px}
-.accordion-header {display:flex; justify-content:space-between;}
+.accordion-item {margin:0 auto; width:97%; background-color:#fff; border-radius:10px; margin-bottom:15px; padding:20px}
+.accordion-header {display:flex; justify-content:space-between; cursor:pointer; transition:all 0.3s ease;}
+.accordion-header:hover {margin-left:7px;}
 .accordion-header h6 {display:inline-block; font-size:18px;}
 .accordion-header img {transform:rotate(-90deg); cursor:pointer; transition:all 0.5s ease;}
 .accordion-header .rotate {transform:rotate(0deg); transition:all 0.5s ease;}
